@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    /* opacity: 0.2; */
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left ,#47294d , #000000);
+    /* opacity: 0.8; */
+    /* filter: blur(5px); */
+}
+.list .list_item{
+    color: #fff;
+    padding: 22px 35px;
+    text-decoration: none;
+    transition: 1s;
+}
+.list .list_item:hover{
+    color: #5B00FB;
+    border-top: #5B00FB;
+}

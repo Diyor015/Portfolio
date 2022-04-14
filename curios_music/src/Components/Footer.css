@@ -1,0 +1,85 @@
+.footer {
+    background: #09010D;
+}
+
+.footer .twice h1 {
+    /* justify-content: center; */
+    padding-top: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.mail_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.mail_btn input {
+    color: #FFFFFF;
+    width: 410px;
+    height: 48px;
+    border-radius: 48px;
+    box-sizing: border-box;
+    border: 0.5px solid #D0D0D0;
+    background-attachment: fixed;
+    background-color: #09010D;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.mail_btn button {
+    width: 59px;
+    height: 49px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 48px;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 23.5%;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .connect {
+    width: 255px;
+}
+
+.menu .connect h1 {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.menu .connect p {
+    color: #FFFFFF;
+}
+
+.connect .icons {
+    display: flex;
+    justify-content: start;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.connect .icons .bi{
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.instagram,
+.telegram,
+.twitter{
+    padding-right: 10px;
+}
+

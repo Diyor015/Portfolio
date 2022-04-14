@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top_head {
+    background: url(./Image/Headerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_head h1 {
+    font-size: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top_head .title_top {
+    padding-top: 150px;
+    font-size: 46px;
+}
+
+.top_head .prgf {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.top_head .btn_header {
+    color: #fff;
+    width: 236px;
+    height: 49px;
+    text-align: center;
+    margin-left: 43%;
+    font-size: 18px;
+    padding: 14px 40px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    border-radius: 46px;
+    font-weight: 600;
+    margin-bottom: 160px;
+}
+
+.big_sec {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(158deg, rgba(0, 0, 0, 1) 0%, rgba(74, 47, 85, 1) 54%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.section_top .title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.top_pics {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.top_pics .card {
+    width: 255px;
+    height: 436px;
+    border-radius: 10px;
+    margin: 15px;
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%)
+}
+
+.card img {
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+.card h1 {
+    padding-bottom: 68px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card .single {
+    padding-bottom: 13px;
+}
+
+.card p {
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card button {
+    width: 188px;
+    height: 47px;
+    margin-left: 14%;
+    border-radius: 37px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.middle h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.middle .list_after ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_after ul li {
+    margin: 20px;
+    padding: 3px;
+    transition: 1s;
+    width: 59px;
+    height: 33px;
+    align-items: center;
+}
+
+.list_after ul li:hover {
+    border: solid 1px white;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+}
+
+.list_after ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.middle .card h1 {
+    padding-bottom: 68px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.middle .card .single {
+    padding-bottom: 13px;
+}
+
+.middle_pics {
+    display: flex;
+    justify-content: center;
+}
+
+.middle_pics .card {
+    width: 255px;
+    height: 436px;
+    border-radius: 10px;
+    margin: 15px;
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%)
+}
+
+.middle_pics .card img {
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+.middle_pics .card h1 {
+    padding-bottom: 68px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.middle_pics .card .single {
+    padding-bottom: 13px;
+}
+
+.middle_pics .card p {
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.middle_pics .card button {
+    width: 188px;
+    height: 47px;
+    margin-left: 3%;
+    border-radius: 37px;
+    background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
